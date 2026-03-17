@@ -1,6 +1,8 @@
-<image src="./go.png" width="200px">
+# Monte Carlo Go
+A WinForms based [Go](https://en.wikipedia.org/wiki/Go_(game)) playing bot demonstrating naive AI techniques developed for my Extended Project Qualification. [View a copy of the report here!](https://charliehowlett.co.uk/EPQReport.pdf)
 
-# Go Bot
-A WinForms based [Go](https://en.wikipedia.org/wiki/Go_(game)) playing bot demonstrating AI techniques, such as Monte Carlo Tree Search alongside various optimizations, developed in partial fulfillment of my Extended Project Qualification.
+<image src="./mcts.png">
 
-[View a copy of the report here!](https://charliehowlett.co.uk/EPQReport.pdf)
+The bot implements Monte Carlo Tree Search alongside various optimizations, as well as configurable parameters such as computer thinking time and board size. It also features a history panel allowing you to replay historic moves.
+
+<image src="./gamewindow.png">
